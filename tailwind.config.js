@@ -1,10 +1,23 @@
 module.exports = {
-  content: [
+  mode: 'jit',
+  purge: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'sans-serif']
+      },
+      colors: {
+        gray: {
+          900: '#171838'
+        },
+        teal: {
+          500: '#3AA39F'
+        }
+      }
+    },
   },
   plugins: [],
 }

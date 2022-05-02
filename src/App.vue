@@ -4,8 +4,14 @@
       <a href="#">
         <Logo/>
       </a>
-      <nav class="flex items-center space-x-10 text-sm font-medium text-gray-900">
-        <a v-for="item in menu" href="#">{{ item }}</a>
+      <nav class="flex items-center space-x-10 text-sm font-medium text-gray-900 uppercase">
+        <a
+            href="#"
+            v-for="item in menu"
+            class="py-1 hover:border-b hover:border-gray-900"
+        >
+          {{ item }}
+        </a>
       </nav>
     </header>
   </div>

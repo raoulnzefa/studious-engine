@@ -1,11 +1,15 @@
 <template>
-  <main>
-    <p class="text-purple-300">Init commit</p>
-  </main>
+  <div class="font-sans text-gray-900">
+    <header>
+      <a href="#">
+        <Logo />
+      </a>
+    </header>
+  </div>
 </template>
 
-<script>
-export default {}
+<script setup>
+import Logo from './assets/img/logo.svg'
 </script>
 
 <style scoped>

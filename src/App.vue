@@ -27,8 +27,17 @@
         <CartIcon />
       </button>
     </header>
-    <main>
-      
+    <main class="pt-10 pb-12 pl-20">
+      <button>
+        <ArrowLeftIcon />
+      </button>
+      <div class="flex">
+        <div class="flex flex-col w-1/2">
+          <div class="max-w-md">
+
+          </div>
+        </div>
+      </div>
     </main>
   </div>
 </template>
@@ -38,6 +47,7 @@ import Logo from './assets/img/logo.svg'
 import MenuIcon from './assets/img/menu.svg'
 import SearchIcon from './assets/img/search.svg'
 import CartIcon from './assets/img/cart.svg'
+import ArrowLeftIcon from './assets/img/arrow-left.svg'
 
 const menu = ['shop', 'collections', 'new arrival', 'customers']
 </script>

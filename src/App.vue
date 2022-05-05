@@ -34,8 +34,8 @@
       <div class="flex">
         <div class="flex flex-col w-1/2">
           <div class="max-w-md">
-            <div>
-              
+            <div class="flex items-center text-sm pt-9">
+              <span>Chair</span>
             </div>
           </div>
         </div>

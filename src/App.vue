@@ -27,6 +27,9 @@
         <CartIcon />
       </button>
     </header>
+    <main>
+      
+    </main>
   </div>
 </template>
 

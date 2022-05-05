@@ -35,7 +35,7 @@
         <div class="flex flex-col w-1/2">
           <div class="max-w-md">
             <div class="flex items-center text-sm pt-9">
-              <span>Chair&nbsp;</span>
+              <span class="text-gray-900/40">Chair&nbsp;</span>
               <span>/ Meryl Lounge Chair</span>
             </div>
           </div>

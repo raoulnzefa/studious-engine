@@ -34,7 +34,9 @@
       <div class="flex">
         <div class="flex flex-col w-1/2">
           <div class="max-w-md">
-
+            <div>
+              
+            </div>
           </div>
         </div>
       </div>

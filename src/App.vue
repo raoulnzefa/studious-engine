@@ -43,11 +43,11 @@
             </div>
             <div class="flex items-center justify-between pt-4">
               <span class="text-3xl">$1449.99</span>
-              <div>
+              <div class="flex items-center">
                 <div class="flex space-x-px">
                   <StarIcon v-for="i in 5"/>
                 </div>
-                <div>
+                <div class="pl-2 leading-none">
                   4.9 / 5.0 <span class="text-gray-900/40">(556)</span>
                 </div>
               </div>

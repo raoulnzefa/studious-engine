@@ -38,6 +38,12 @@
               <span class="text-gray-900/40">Chair&nbsp;</span>
               <span>/ Meryl Lounge Chair</span>
             </div>
+            <div class="pt-10">
+              <h1 class="text-4xl font-bold tracking-wide">Meryl Lounge Chair</h1>
+            </div>
+            <div class="flex items-center justify-between pt-4">
+              <span class="text-3xl">$1449.99</span>
+            </div>
           </div>
         </div>
       </div>

@@ -43,6 +43,11 @@
             </div>
             <div class="flex items-center justify-between pt-4">
               <span class="text-3xl">$1449.99</span>
+              <div>
+                <div class="flex space-x-px">
+                  <StarIcon v-for="i in 5"/>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -57,6 +62,7 @@ import MenuIcon from './assets/img/menu.svg'
 import SearchIcon from './assets/img/search.svg'
 import CartIcon from './assets/img/cart.svg'
 import ArrowLeftIcon from './assets/img/arrow-left.svg'
+import StarIcon from './assets/img/star.svg'
 
 const menu = ['shop', 'collections', 'new arrival', 'customers']
 </script>

@@ -47,6 +47,9 @@
                 <div class="flex space-x-px">
                   <StarIcon v-for="i in 5"/>
                 </div>
+                <div>
+                  4.9 / 5.0 <span class="text-gray-900/40">(556)</span>
+                </div>
               </div>
             </div>
           </div>

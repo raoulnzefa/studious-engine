@@ -52,6 +52,10 @@
                 </div>
               </div>
             </div>
+            <p class="leading-relaxed pt-9">
+              The gently curved lines accentuated by sewn details are kind to your body and pleasant to look at.
+              Also, there’s a tilt and height-adjusting mechanism that’s built to outlast years of ups and downs.
+            </p>
           </div>
         </div>
       </div>

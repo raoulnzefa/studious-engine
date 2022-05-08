@@ -16,20 +16,20 @@
         </nav>
         <div class="flex items-center">
           <button class="h-16 px-6">
-            <MenuIcon />
+            <MenuIcon/>
           </button>
           <button class="h-16 px-6">
-            <SearchIcon />
+            <SearchIcon/>
           </button>
         </div>
       </div>
       <button class="flex items-center justify-center h-16 px-6 border-l border-gray-900/20">
-        <CartIcon />
+        <CartIcon/>
       </button>
     </header>
     <main class="pt-10 pb-12 pl-20">
       <button>
-        <ArrowLeftIcon />
+        <ArrowLeftIcon/>
       </button>
       <div class="flex">
         <div class="flex flex-col w-1/2">
@@ -56,6 +56,9 @@
               The gently curved lines accentuated by sewn details are kind to your body and pleasant to look at.
               Also, there’s a tilt and height-adjusting mechanism that’s built to outlast years of ups and downs.
             </p>
+            <div class="flex pt-8 space-x-4">
+              <button class="w-5 h-5 rounded-full bg-[#58737d] hover:ring-4 hover:ring-gray-900/20"/>
+            </div>
           </div>
         </div>
       </div>

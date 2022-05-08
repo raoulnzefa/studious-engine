@@ -57,7 +57,18 @@
               Also, there’s a tilt and height-adjusting mechanism that’s built to outlast years of ups and downs.
             </p>
             <div class="flex pt-8 space-x-4">
-              <button class="w-5 h-5 rounded-full bg-[#58737d] hover:ring-4 hover:ring-gray-900/20"/>
+              <button
+                  class="w-5 h-5 rounded-full bg-[#58737d] hover:ring-4 hover:ring-gray-900/20"
+              />
+              <button
+                  class="w-5 h-5 rounded-full bg-[#58737d] hover:ring-4 hover:ring-gray-900/20"
+              />
+              <button
+                  class="w-5 h-5 rounded-full bg-[#545454] hover:ring-4 hover:ring-gray-900/20"
+              />
+              <button
+                  class="w-5 h-5 rounded-full bg-[#cba5a5] hover:ring-4 hover:ring-gray-900/20"
+              />
             </div>
           </div>
         </div>

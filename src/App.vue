@@ -70,6 +70,16 @@
                   class="w-5 h-5 rounded-full bg-[#cba5a5] hover:ring-4 hover:ring-gray-900/20"
               />
             </div>
+            <div>
+              <div>
+                <button>
+                  <MinusIcon />
+                </button>
+                <button>
+                  <PlusIcon />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -84,6 +94,8 @@ import SearchIcon from './assets/img/search.svg'
 import CartIcon from './assets/img/cart.svg'
 import ArrowLeftIcon from './assets/img/arrow-left.svg'
 import StarIcon from './assets/img/star.svg'
+import MinusIcon from './assets/img/minus.svg'
+import PlusIcon from './assets/img/plus.svg'
 
 const menu = ['shop', 'collections', 'new arrival', 'customers']
 </script>

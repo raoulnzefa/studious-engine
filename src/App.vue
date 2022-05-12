@@ -70,13 +70,17 @@
                   class="w-5 h-5 rounded-full bg-[#cba5a5] hover:ring-4 hover:ring-gray-900/20"
               />
             </div>
-            <div>
-              <div>
-                <button>
+            <div class="flex space-x-6 pt-9">
+              <div class="flex items-center border rounded-sm border-gray-900/30">
+                <button class="p-4">
                   <MinusIcon />
                 </button>
-                <input v-model="count" type="text">
-                <button>
+                <input
+                    v-model="count"
+                    type="text"
+                    class="w-16 h-full text-center outline-none"
+                />
+                <button class="p-4">
                   <PlusIcon />
                 </button>
               </div>

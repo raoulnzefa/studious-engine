@@ -97,10 +97,10 @@
                 <span>Add to wishlist</span>
               </button>
               <div class="flex items-center space-x-6">
-                <button><TwitterIcon /></button>
-                <button><InstagramIcon /></button>
-                <button><FacebookIcon /></button>
-                <button><PinterestIcon /></button>
+                <button><TwitterIcon class="w-5 h-5" /></button>
+                <button><InstagramIcon class="w-5 h-5" /></button>
+                <button><FacebookIcon class="w-5 h-5" /></button>
+                <button><PinterestIcon class="w-5 h-5" /></button>
               </div>
             </div>
           </div>

@@ -75,6 +75,7 @@
                 <button>
                   <MinusIcon />
                 </button>
+                <input v-model="count" type="text">
                 <button>
                   <PlusIcon />
                 </button>
@@ -88,6 +89,7 @@
 </template>
 
 <script setup>
+import {ref} from "vue"
 import Logo from './assets/img/logo.svg'
 import MenuIcon from './assets/img/menu.svg'
 import SearchIcon from './assets/img/search.svg'
@@ -98,6 +100,7 @@ import MinusIcon from './assets/img/minus.svg'
 import PlusIcon from './assets/img/plus.svg'
 
 const menu = ['shop', 'collections', 'new arrival', 'customers']
+const count = ref(1)
 </script>
 
 <style scoped>

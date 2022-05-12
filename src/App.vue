@@ -80,7 +80,7 @@
                     type="text"
                     class="w-16 h-full text-center outline-none"
                 />
-                <button class="p-4" @click="count++">
+                <button class="p-4" @click="count < 11 ? count++ : count">
                   <PlusIcon/>
                 </button>
               </div>

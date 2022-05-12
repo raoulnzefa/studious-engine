@@ -93,7 +93,7 @@
             </div>
             <div class="flex items-center justify-between pt-12">
               <button class="flex items-center px-4 py-2 space-x-2 text-teal-500 hover:text-teal-600">
-                <LikeIcon />
+                <LikeIcon class="fill-current" />
                 <span>Add to wishlist</span>
               </button>
             </div>

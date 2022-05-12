@@ -91,6 +91,12 @@
             <div class="pt-8">
               Free 2-5 day shipping • Tool-free assembly • 30-day trial
             </div>
+            <div class="flex items-center justify-between pt-12">
+              <button class="flex items-center px-4 py-2 space-x-2 text-teal-500 hover:text-teal-600">
+                <LikeIcon />
+                <span>Add to wishlist</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -108,6 +114,7 @@ import ArrowLeftIcon from './assets/img/arrow-left.svg'
 import StarIcon from './assets/img/star.svg'
 import MinusIcon from './assets/img/minus.svg'
 import PlusIcon from './assets/img/plus.svg'
+import LikeIcon from './assets/img/like.svg'
 
 const menu = ['shop', 'collections', 'new arrival', 'customers']
 const count = ref(1)

@@ -96,6 +96,12 @@
                 <LikeIcon class="stroke-current" />
                 <span>Add to wishlist</span>
               </button>
+              <div class="flex items-center space-x-6">
+                <button><TwitterIcon /></button>
+                <button><InstagramIcon /></button>
+                <button><FacebookIcon /></button>
+                <button><PinterestIcon /></button>
+              </div>
             </div>
           </div>
         </div>
@@ -115,6 +121,10 @@ import StarIcon from './assets/img/star.svg'
 import MinusIcon from './assets/img/minus.svg'
 import PlusIcon from './assets/img/plus.svg'
 import LikeIcon from './assets/img/like.svg'
+import TwitterIcon from './assets/img/twitter.svg'
+import InstagramIcon from './assets/img/instagram.svg'
+import FacebookIcon from './assets/img/facebook.svg'
+import PinterestIcon from './assets/img/pinterest.svg'
 
 const menu = ['shop', 'collections', 'new arrival', 'customers']
 const count = ref(1)

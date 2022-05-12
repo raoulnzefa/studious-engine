@@ -84,6 +84,9 @@
                   <PlusIcon/>
                 </button>
               </div>
+              <button class="py-4 text-sm font-bold text-white uppercase bg-teal-500 rounded-sm px-14 hover:bg-teal-600">
+                Add to cart
+              </button>
             </div>
           </div>
         </div>

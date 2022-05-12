@@ -88,6 +88,9 @@
                 Add to cart
               </button>
             </div>
+            <div class="pt-8">
+              Free 2-5 day shipping • Tool-free assembly • 30-day trial
+            </div>
           </div>
         </div>
       </div>

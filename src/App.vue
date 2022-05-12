@@ -42,7 +42,7 @@
               <h1 class="text-4xl font-bold tracking-wide">Meryl Lounge Chair</h1>
             </div>
             <div class="flex items-center justify-between pt-4">
-              <span class="text-3xl">$1449.99</span>
+              <span class="text-3xl">$1499.00</span>
               <div class="flex items-center">
                 <div class="flex space-x-px">
                   <StarIcon v-for="i in 5"/>

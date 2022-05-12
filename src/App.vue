@@ -89,7 +89,7 @@
               </button>
             </div>
             <div class="pt-8">
-              Free 2-5 day shipping • Tool-free assembly • 30-day trial
+              Limited edition • High-End Classic • Free 5-7 day shipping
             </div>
             <div class="flex items-center justify-between pt-12">
               <button class="flex items-center px-4 py-2 space-x-2 text-teal-500 hover:text-teal-600">

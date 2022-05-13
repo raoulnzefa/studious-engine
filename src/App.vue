@@ -117,7 +117,7 @@
         <div class="relative flex flex-col items-end w-1/2">
           <div class="flex items-start pr-20 space-x-2">
             <span class="text-3xl font-bold leading-tight">01&nbsp;</span>
-            <span class="text-xl">/ 05</span>
+            <span class="text-xl">/ 04</span>
           </div>
           <div class="flex pr-10 space-x-16">
             <button class="p-3">

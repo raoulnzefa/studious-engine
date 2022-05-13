@@ -135,21 +135,21 @@
 
 <script setup>
 import {ref} from "vue"
-import Logo from './assets/img/logo.svg'
-import MenuIcon from './assets/img/menu.svg'
-import SearchIcon from './assets/img/search.svg'
-import CartIcon from './assets/img/cart.svg'
-import ArrowLeftIcon from './assets/img/arrow-left.svg'
-import StarIcon from './assets/img/star.svg'
-import MinusIcon from './assets/img/minus.svg'
-import PlusIcon from './assets/img/plus.svg'
-import LikeIcon from './assets/img/like.svg'
-import TwitterIcon from './assets/img/twitter.svg'
-import InstagramIcon from './assets/img/instagram.svg'
-import FacebookIcon from './assets/img/facebook.svg'
-import PinterestIcon from './assets/img/pinterest.svg'
-import ChevronLeftIcon from './assets/img/chevron-left.svg'
-import ChevronRightIcon from './assets/img/chevron-right.svg'
+import Logo from './assets/icons/logo.svg'
+import MenuIcon from './assets/icons/menu.svg'
+import SearchIcon from './assets/icons/search.svg'
+import CartIcon from './assets/icons/cart.svg'
+import ArrowLeftIcon from './assets/icons/arrow-left.svg'
+import StarIcon from './assets/icons/star.svg'
+import MinusIcon from './assets/icons/minus.svg'
+import PlusIcon from './assets/icons/plus.svg'
+import LikeIcon from './assets/icons/like.svg'
+import TwitterIcon from './assets/icons/twitter.svg'
+import InstagramIcon from './assets/icons/instagram.svg'
+import FacebookIcon from './assets/icons/facebook.svg'
+import PinterestIcon from './assets/icons/pinterest.svg'
+import ChevronLeftIcon from './assets/icons/chevron-left.svg'
+import ChevronRightIcon from './assets/icons/chevron-right.svg'
 
 const menu = ['shop', 'collections', 'new arrival', 'customers']
 const count = ref(1)

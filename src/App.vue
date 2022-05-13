@@ -93,7 +93,7 @@
               Limited edition • High-End Classic • Free 5-7 day shipping
             </div>
             <div class="flex items-center justify-between pt-12">
-              <button class="flex items-center px-4 py-2 space-x-2 text-teal-500 hover:text-teal-600">
+              <button class="flex items-center px-4 py-2 space-x-2 text-rose-500 hover:text-rose-600">
                 <LikeIcon class="stroke-current"/>
                 <span>Add to wishlist</span>
               </button>

@@ -114,18 +114,30 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col items-end w-1/2">
+        <div class="relative flex flex-col items-end w-1/2">
           <div class="flex items-start pr-20 space-x-2">
             <span class="text-3xl font-bold leading-tight">01&nbsp;</span>
             <span class="text-xl">/ 05</span>
           </div>
-          <div class="flex pt-10 space-x-16">
+          <div class="flex pr-10 space-x-16">
             <button class="p-3">
               <ChevronLeftIcon/>
             </button>
             <button class="p-3">
               <ChevronRightIcon/>
             </button>
+          </div>
+          <img class="max-h-96 pt-5 pr-[200px]" src="./assets/img/1.jpg" alt="">
+          <div
+              class="absolute w-[440px] h-[250px] bg-gradient-to-r from-transparent to-[#cba5a5]/20 top-24 right-0"
+          />
+          <div class="flex pt-5 pr-[200px] space-x-4">
+            <div
+                v-for="i in 3"
+                class="w-24 h-24 pl-1 border-2 cursor-pointer border-gray-900/10 hover:border-[#cba5a5]"
+            >
+              <img :src="`./src/assets/img/${i + 1}.jpg`" alt="">
+            </div>
           </div>
         </div>
       </div>

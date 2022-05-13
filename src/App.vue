@@ -127,7 +127,7 @@
               <ChevronRightIcon/>
             </button>
           </div>
-          <img class="max-h-96 pt-5 pr-[200px]" src="./assets/img/1.jpg" alt="">
+          <img class="max-h-96 pt-5 pr-[200px]" src="../public/img/1.jpg" alt="">
           <div
               class="absolute w-[440px] h-[250px] bg-gradient-to-r from-transparent to-rose-500/30 top-24 right-0"
           />
@@ -136,7 +136,7 @@
                 v-for="i in 3"
                 class="w-24 h-24 pl-1 border-2 cursor-pointer border-gray-900/10 hover:border-rose-500"
             >
-              <img :src="`./src/assets/img/${i + 1}.jpg`" alt="">
+              <img :src="`./public/img/${i + 1}.jpg`" alt="">
             </div>
           </div>
         </div>

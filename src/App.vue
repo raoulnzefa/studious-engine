@@ -136,7 +136,7 @@
                 v-for="i in 3"
                 class="w-24 h-24 pl-1 border-2 cursor-pointer border-gray-900/10 hover:border-rose-500"
             >
-              <img :src="`./public/img/${i + 1}.jpg`" alt="">
+              <img :src="`/img/${i + 1}.jpg`" alt="">
             </div>
           </div>
         </div>

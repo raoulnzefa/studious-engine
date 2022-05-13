@@ -67,7 +67,7 @@
                   class="w-5 h-5 rounded-full bg-[#545454] hover:ring-4 hover:ring-gray-900/20"
               />
               <button
-                  class="w-5 h-5 rounded-full bg-[#cba5a5] hover:ring-4 hover:ring-gray-900/20"
+                  class="w-5 h-5 rounded-full bg-rose-500 hover:ring-4 hover:ring-gray-900/20"
               />
             </div>
             <div class="flex space-x-6 pt-9">
@@ -85,7 +85,7 @@
                 </button>
               </div>
               <button
-                  class="py-4 text-sm font-bold text-white uppercase bg-teal-500 rounded-sm px-14 hover:bg-teal-600">
+                  class="py-4 text-sm font-bold text-white uppercase bg-rose-500 rounded-sm px-14 hover:bg-rose-600">
                 Add to cart
               </button>
             </div>
@@ -129,12 +129,12 @@
           </div>
           <img class="max-h-96 pt-5 pr-[200px]" src="./assets/img/1.jpg" alt="">
           <div
-              class="absolute w-[440px] h-[250px] bg-gradient-to-r from-transparent to-[#cba5a5]/20 top-24 right-0"
+              class="absolute w-[440px] h-[250px] bg-gradient-to-r from-transparent to-rose-500/30 top-24 right-0"
           />
           <div class="flex pt-5 pr-[200px] space-x-4">
             <div
                 v-for="i in 3"
-                class="w-24 h-24 pl-1 border-2 cursor-pointer border-gray-900/10 hover:border-[#cba5a5]"
+                class="w-24 h-24 pl-1 border-2 cursor-pointer border-gray-900/10 hover:border-rose-500"
             >
               <img :src="`./src/assets/img/${i + 1}.jpg`" alt="">
             </div>

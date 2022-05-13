@@ -15,6 +15,10 @@ module.exports = {
         },
         teal: {
           500: '#3AA39F'
+        },
+        rose: {
+          500: '#cba5a5',
+          600: '#c5a0a0'
         }
       }
     },

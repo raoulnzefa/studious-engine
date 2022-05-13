@@ -9,7 +9,7 @@
           <a
               href="#"
               v-for="item in menu"
-              class="py-1 hover:border-b hover:border-gray-900"
+              class="py-1 hover:border-b hover:border-rose-500 hover:pt-1.75 hover:border-gray-900 hover:text-rose-500"
           >
             {{ item }}
           </a>

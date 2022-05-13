@@ -61,7 +61,7 @@
                   class="w-5 h-5 rounded-full bg-[#58737d] hover:ring-4 hover:ring-gray-900/20"
               />
               <button
-                  class="w-5 h-5 rounded-full bg-[#58737d] hover:ring-4 hover:ring-gray-900/20"
+                  class="w-5 h-5 rounded-full bg-teal-500 hover:ring-4 hover:ring-gray-900/20"
               />
               <button
                   class="w-5 h-5 rounded-full bg-[#545454] hover:ring-4 hover:ring-gray-900/20"
@@ -84,7 +84,8 @@
                   <PlusIcon/>
                 </button>
               </div>
-              <button class="py-4 text-sm font-bold text-white uppercase bg-teal-500 rounded-sm px-14 hover:bg-teal-600">
+              <button
+                  class="py-4 text-sm font-bold text-white uppercase bg-teal-500 rounded-sm px-14 hover:bg-teal-600">
                 Add to cart
               </button>
             </div>
@@ -93,16 +94,38 @@
             </div>
             <div class="flex items-center justify-between pt-12">
               <button class="flex items-center px-4 py-2 space-x-2 text-teal-500 hover:text-teal-600">
-                <LikeIcon class="stroke-current" />
+                <LikeIcon class="stroke-current"/>
                 <span>Add to wishlist</span>
               </button>
               <div class="flex items-center space-x-6">
-                <button><TwitterIcon class="w-5 h-5" /></button>
-                <button><InstagramIcon class="w-5 h-5" /></button>
-                <button><FacebookIcon class="w-5 h-5" /></button>
-                <button><PinterestIcon class="w-5 h-5" /></button>
+                <button>
+                  <TwitterIcon class="w-5 h-5"/>
+                </button>
+                <button>
+                  <InstagramIcon class="w-5 h-5"/>
+                </button>
+                <button>
+                  <FacebookIcon class="w-5 h-5"/>
+                </button>
+                <button>
+                  <PinterestIcon class="w-5 h-5"/>
+                </button>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-end w-1/2">
+          <div class="flex items-start pr-20 space-x-2">
+            <span class="text-3xl font-bold leading-tight">01&nbsp;</span>
+            <span class="text-xl">/ 05</span>
+          </div>
+          <div class="flex pt-10 space-x-16">
+            <button class="p-3">
+              <ChevronLeftIcon/>
+            </button>
+            <button class="p-3">
+              <ChevronRightIcon/>
+            </button>
           </div>
         </div>
       </div>
@@ -125,6 +148,8 @@ import TwitterIcon from './assets/img/twitter.svg'
 import InstagramIcon from './assets/img/instagram.svg'
 import FacebookIcon from './assets/img/facebook.svg'
 import PinterestIcon from './assets/img/pinterest.svg'
+import ChevronLeftIcon from './assets/img/chevron-left.svg'
+import ChevronRightIcon from './assets/img/chevron-right.svg'
 
 const menu = ['shop', 'collections', 'new arrival', 'customers']
 const count = ref(1)
